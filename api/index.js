@@ -10,7 +10,7 @@ const pool = mysql.createPool({
 });
 
 const app = express();
-app.use(express.json()); // Middleware para lidar com JSON
+app.use(express.json()); // middleware para lidar com JSON
 
 //async.: função assíncrona
 //await: aguarda o resultado da função assíncrona
